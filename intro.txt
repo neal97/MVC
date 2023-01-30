@@ -1,0 +1,33 @@
+- Approche architechture mvc (Design patern)
+
+Model (Echange avec le controller aussi avec la BDD - REQUEST SQL)
+View (Affichage et presentation des données - HTML/CSS)
+controller (Traitements (class - methodes) - PHP)
+
+Avantages :
+-Clarté de l'architechture
+-Favorise le travail d'équipe et les mises a jour de l'app.
+
+Inconvénients :
+-Nombre de fichiers(trop complexe pour des petites applications).
+-Le temps accordé a l'architechture peut ne pas etre rentable pour le projet.
+
+
+DOSSIER MVC
+dossier: assets
+
+dossier : controller
+
+dossier : Model
+
+dossier : template
+1 fichier : layout.php
+
+dossier: utils
+1 fichier : autoload.php
+
+dossier : view
+home.php
+
+Racine - 1 fichier : index.php
+
